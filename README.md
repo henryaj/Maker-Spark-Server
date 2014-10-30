@@ -1,6 +1,8 @@
 ![Screenshot of server splash page](screenshot.jpg)
 
-# The pitch
+# Spark Printer Server [![Code Climate](https://codeclimate.com/github/henryaj/Maker-Spark-Server/badges/gpa.svg)](https://codeclimate.com/github/henryaj/Maker-Spark-Server)
+
+## The pitch
 
 We spend all day looking at screens. You look at a screen on the way to work, where you look at screens all day. When you get home, you look at a screen some more. You go to bed, and look at a screen the second you wake up.
 
@@ -8,7 +10,7 @@ Wouldn't it be nice not to have to look at a screen for once? To have something 
 
 We wanted to venture out of the comfortable space of web apps and build something physical.
 
-# Spark Printer
+## The product
 
 It's a tiny, wireless, RFID-enabled, open source personal printing platform.
 
