@@ -10,16 +10,6 @@ class UsersController < SparkPrint
 		redirect '/'
 	end
 
-	get "/sign_up" do
-		flash[:notice] = "Thanks for your interest in Spark Printer. Please visit the printer and tap an RFID card on the reader to get your unique signup code."
-		redirect '/'
-	end
-
-	get "/sign_up_with" do
-		flash[:notice] = "Thanks for your interest in Spark Printer. Please visit the printer and tap an RFID card on the reader to get your unique signup code."
-		redirect '/'
-	end
-
 	get "/sign_up_with/:rfid_code" do
 		if @user
 			flash[:notice] = "You're already a registered user!"
@@ -41,7 +31,6 @@ class UsersController < SparkPrint
 	post "/sign_in" do
 		@user = sign_in(params[:email], params[:password]) 	
 		success_or_error_for("sign_in",@user)
-
 	end
 
 	get '/edit_user' do

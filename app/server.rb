@@ -77,13 +77,22 @@ class SparkPrint < Sinatra::Base
     event.delete_user_messages(printer.response)
     "sorry ben is stupid"
   end
-
     
 	get '/' do
 	  @users = User.all
     @user = current_user
 	  erb :printer
 	end
+
+  get "/users/sign_up" do
+    flash[:notice] = "Thanks for your interest in Spark Printer. Please visit the printer and tap an RFID card on the reader to get your unique signup code."
+    redirect '/'
+  end
+
+  get "/users/sign_up_with" do
+    flash[:notice] = "Thanks for your interest in Spark Printer. Please visit the printer and tap an RFID card on the reader to get your unique signup code."
+    redirect '/'
+  end
 
 	run! if app_file == $0
 
