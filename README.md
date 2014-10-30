@@ -52,8 +52,8 @@ Spark Printer has several distinct components which work together. The repos are
 * WebMock
  
 **APIs**
-* [Transport for London](https://www.tfl.gov.uk/info-for/open-data-users/)
-* [Twitter](https://www.tfl.gov.uk/info-for/open-data-users/)
-* [The Guardian](http://www.theguardian.com/open-platform)
-* [GitHub](https://developer.github.com/)
-* [forecast.io](http://forecast.io)
+* [Transport for London](https://www.tfl.gov.uk/info-for/open-data-users/) via [service_disruption](https://github.com/adamcarlile/service_disruption) gem
+* [Twitter](https://www.tfl.gov.uk/info-for/open-data-users/) via [twitter](https://github.com/sferik/twitter) gem
+* [The Guardian](http://www.theguardian.com/open-platform) 
+* [GitHub](https://developer.github.com/) via [githubstats](https://rubygems.org/gems/githubstats) gem
+* [forecast.io](http://forecast.io) via [forecast_io](https://rubygems.org/gems/forecast_io) gem
