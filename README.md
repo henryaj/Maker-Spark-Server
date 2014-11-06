@@ -12,7 +12,7 @@ We wanted to venture out of the comfortable space of web apps and build somethin
 
 ## The product
 
-It's a tiny, wireless, RFID-enabled, open source personal printing platform.
+It's a tiny, wireless, RFID-enabled, open source personal printer.
 
 Start by tapping your RFID card on the reader – Spark Printer will print out a link for you to follow. There, you can register and customise your printouts. Once set up, tap your card on the reader to receive a personalised, context-aware printout.
 
